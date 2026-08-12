@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Mansi Chauhan - B.Tech CSE Student, Web Developer, and DSA Enthusiast.">
+  <meta name="keywords" content="Mansi Chauhan, Portfolio, Web Developer, CSE, Java, Python, React, Data Structures, Algorithms">
+  <meta name="author" content="Mansi Chauhan">
+  
+  <title>Mansi Chauhan | Developer Portfolio</title>
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+  <!--=============== GOOGLE FONTS ===============-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Unbounded:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!--=============== CUSTOM CURSOR ===============-->
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-outline" id="cursor-outline"></div>
+  <div class="pointer-glow" id="pointer-glow"></div>
+
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        Mansi<span class="logo-dot">.</span>
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active-link"><i class="ri-home-4-line"></i> Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link"><i class="ri-user-3-line"></i> About</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link"><i class="ri-code-s-slash-line"></i> Skills</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link"><i class="ri-folder-code-line"></i> Projects</a></li>
+          <li class="nav__item"><a href="#journey" class="nav__link"><i class="ri-graduation-cap-line"></i> Journey</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link"><i class="ri-send-plane-line"></i> Contact</a></li>
+        </ul>
+
+        <!-- Mobile Menu Close Button -->
+        <div class="nav__close" id="nav-close" aria-label="Close menu">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <div class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+        <i class="ri-menu-3-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="nav__overlay" id="nav-overlay"></div>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        
+        <!-- Left Side Content -->
+        <div class="home__content">
+          <div class="home__badge">
+            <span class="badge__pulse"></span>
+            <span>Open for Internships & Opportunities</span>
+          </div>
+
+          <h1 class="home__title">
+            Hi, I'm <span class="gradient-text">Mansi Chauhan</span> 👋
+          </h1>
+
+          <h3 class="home__subtitle">
+            B.Tech CSE Student (4th Year)
+          </h3>
+
+          <p class="home__description">
+            I am a passionate <span id="typing"></span><span class="type-cursor">|</span>
+          </p>
+
+          <!-- Buttons -->
+          <div class="home__buttons">
+            <a href="assets/pdf/mansiresume.pdf" download class="btn btn--primary">
+              <span>Download Resume</span>
+              <i class="ri-download-2-line"></i>
+            </a>
+            <a href="#contact" class="btn btn--secondary">
+              <span>Let's Talk</span>
+              <i class="ri-chat-1-line"></i>
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="home__social">
+            <a href="https://github.com/mansi12366" target="_blank" rel="noopener noreferrer" class="social__link" title="GitHub">
+              <i class="ri-github-fill"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mansi-chauhan-9b0293323/" target="_blank" rel="noopener noreferrer" class="social__link" title="LinkedIn">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+            <a href="mailto:mansirajput9045@gmail.com" class="social__link" title="Email">
+              <i class="ri-mail-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side Image -->
+        <div class="home__image-wrapper">
+          <div class="home__blob">
+            <div class="home__img-glow"></div>
+            <img src="assets/image/mansi2.jpeg" alt="Mansi Chauhan" class="home__img">
+          </div>
+
+          <!-- Floating Badges -->
+          <div class="floating-badge badge-1">
+            <i class="ri-code-line"></i>
+            <div>
+              <strong>Web Dev</strong>
+              <small>React & Node.js</small>
+            </div>
+          </div>
+          
+          <div class="floating-badge badge-2">
+            <i class="ri-git-branch-line"></i>
+            <div>
+              <strong>DSA Focus</strong>
+              <small>Java & Logic</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <a href="#about" class="scroll-down" aria-label="Scroll down">
+        <i class="ri-arrow-down-double-line"></i>
+      </a>
+    </section>
+
+    <!--==================== STATS COUNTER ====================-->
+    <section class="stats section container">
+      <div class="stats__grid grid">
+        <div class="stat__card">
+          <div class="stat__icon"><i class="ri-code-box-line"></i></div>
+          <div class="stat__number" data-target="300">0+</div>
+          <div class="stat__label">DSA Problems Solved</div>
+        </div>
+        
+        <div class="stat__card">
+          <div class="stat__icon"><i class="ri-folder-4-line"></i></div>
+          <div class="stat__number" data-target="10">0+</div>
+          <div class="stat__label">Projects Completed</div>
+        </div>
+
+        <div class="stat__card">
+          <div class="stat__icon"><i class="ri-graduation-cap-line"></i></div>
+          <div class="stat__number" data-target="4">4th</div>
+          <div class="stat__label">Year B.Tech CSE</div>
+        </div>
+
+        <div class="stat__card">
+          <div class="stat__icon"><i class="ri-stack-line"></i></div>
+          <div class="stat__number" data-target="8">0+</div>
+          <div class="stat__label">Core Technologies</div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section container" id="about">
+      <div class="section__header">
+        <span class="section__subtitle">Get To Know</span>
+        <h2 class="section__title">About <span>Me</span></h2>
+      </div>
+
+      <div class="about__container grid">
+        <div class="about__content">
+          <p class="about__description">
+            I'm <strong>Mansi Chauhan</strong>, a 4th year Computer Science & Engineering undergraduate student. 
+            I am driven by a deep curiosity for solving complex technical problems and building full-stack web applications.
+          </p>
+          <p class="about__description">
+            Currently, I am strengthening my foundation in <strong>Data Structures & Algorithms (DSA)</strong> using Java, alongside building responsive, modern user interfaces and full-stack solutions. My ultimate career goal is to secure a software engineering role in a product-based tech company.
+          </p>
+
+          <!-- Key Highlights Grid -->
+          <div class="about__highlights grid">
+            <div class="highlight__item">
+              <i class="ri-terminal-window-line highlight__icon"></i>
+              <h4>Problem Solving</h4>
+              <p>Strong algorithmic mindset & structured logic building.</p>
+            </div>
+
+            <div class="highlight__item">
+              <i class="ri-layout-3-line highlight__icon"></i>
+              <h4>Web Development</h4>
+              <p>Modern frontend & backend web technologies.</p>
+            </div>
+
+            <div class="highlight__item">
+              <i class="ri-speed-up-line highlight__icon"></i>
+              <h4>Fast Learner</h4>
+              <p>Quick to master new frameworks, libraries, and tools.</p>
+            </div>
+
+            <div class="highlight__item">
+              <i class="ri-team-line highlight__icon"></i>
+              <h4>Collaborative</h4>
+              <p>Effective communicator and active team contributor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section container" id="skills">
+      <div class="section__header">
+        <span class="section__subtitle">My Technical Capabilities</span>
+        <h2 class="section__title">Technical <span>Skills</span></h2>
+      </div>
+
+      <!-- Filter Categories -->
+      <div class="skills__filters">
+        <button class="filter-btn active" data-filter="all">All Skills</button>
+        <button class="filter-btn" data-filter="languages">Languages</button>
+        <button class="filter-btn" data-filter="frontend">Frontend</button>
+        <button class="filter-btn" data-filter="backend">Backend & DB</button>
+        <button class="filter-btn" data-filter="core">Core Concepts</button>
+      </div>
+
+      <!-- Skills Cards Grid -->
+      <div class="skills__grid grid">
+        <!-- Java -->
+        <div class="skill-card" data-category="languages">
+          <div class="skill-card__header">
+            <div class="skill-card__icon"><i class="ri-code-s-slash-line"></i></div>
+            <div>
+              <h3>Java</h3>
+              <span class="skill-level">Proficient</span>
+            </div>
+          </div>
+          <p>Primary language for DSA & Object-Oriented Programming.</p>
+          <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+        </div>
+
+        <!-- Python -->
+        <div class="skill-card" data-category="languages">
+          <div class="skill-card__header">
+            <div class="skill-card__icon"><i class="ri-file-code-line"></i></div>
+            <div>
+              <h3>Python</h3>
+              <span class="skill-level">Intermediate</span>
+            </div>
+          </div>
+          <p>Scripting, problem solving & automation basics.</p>
+          <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+        </div>
+
+        <!-- HTML5 & CSS3 -->
+        <div class="skill-card" data-category="frontend">
+          <div class="skill-card__header">
+            <div class="skill-card__icon"><i class="ri-html5-line"></i></div>
+            <div>
+              <h3>HTML5 & CSS3</h3>
+              <span class="skill-level">Advanced</span>
+            </div>
+          </div>
+          <p>Semantic markup, Flexbox, CSS Grid, Glassmorphism & Animations.</p>
+          <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="skill-card" data-category="frontend">
+          <div class="skill-card__header">
+            <div class="skill-card__icon"><i class="ri-javascript-line"></i></div>
+            <div>
+              <h3>JavaScript (ES6+)</h3>
+              <span class="skill-level">Advanced</span>
+            </div>
+          </div>
+          <p>DOM Manipulation, Async/Await, Fetch API & Modern JS.</p>
+          <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+        </div>
+
+        <!-- React.js -->
+        <div class="skill-card" data-category="frontend">
+          <div class="skill-card__header">
+            <div class="skill-card__icon"><i class="ri-reactjs-line"></i></div>
+            <div>
+              <h3>React.js</h3>
+              <span class="skill-level">Intermediate</span>
+            </div>
+          </div>
+          <p>Reusable Components, Hooks, State Management & SPA development.</p>
+          <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+        </div>
+
+        <!-- Node.js & Express -->
+        <div class="skill-card" data-category="backend">
+          <div class="skill-card__header">
+            <div class="skill-card__icon"><i class="ri-nodejs-line"></i></div>
+            <div>
+              <h3>Node.js & Express</h3>
+              <span class="skill-level">Intermediate</span>
+            </div>
+          </div>
+          <p>RESTful APIs creation, routing, & server middleware handling.</p>
+          <div class="skill-bar"><div class="skill-progress" style="width: 70%;"></div></div>
+        </div>
+
+        <!-- MySQL Database -->
+        <div class="skill-card" data-category="backend">
+          <div class="skill-card__header">
+            <div class="skill-card__icon"><i class="ri-database-2-line"></i></div>
+            <div>
+              <h3>MySQL</h3>
+              <span class="skill-level">Intermediate</span>
+            </div>
+          </div>
+          <p>Relational schema design, SQL queries, joins & data storage.</p>
+          <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+        </div>
+
+        <!-- DSA Core -->
+        <div class="skill-card" data-category="core">
+          <div class="skill-card__header">
+            <div class="skill-card__icon"><i class="ri-git-branch-line"></i></div>
+            <div>
+              <h3>Data Structures & Algorithms</h3>
+              <span class="skill-level">Active Focus</span>
+            </div>
+          </div>
+          <p>Arrays, Linked Lists, Trees, Graphs, Sorting & Dynamic Programming.</p>
+          <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+        </div>
+
+        <!-- Git & GitHub -->
+        <div class="skill-card" data-category="core">
+          <div class="skill-card__header">
+            <div class="skill-card__icon"><i class="ri-github-line"></i></div>
+            <div>
+              <h3>Git & GitHub</h3>
+              <span class="skill-level">Proficient</span>
+            </div>
+          </div>
+          <p>Version control, branching strategies, & repository management.</p>
+          <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== PROJECTS ====================-->
+    <section class="projects section container" id="projects">
+      <div class="section__header">
+        <span class="section__subtitle">My Recent Work</span>
+        <h2 class="section__title">Featured <span>Projects</span></h2>
+      </div>
+
+      <div class="projects__grid grid">
+        
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-card__badge">Featured</div>
+          <div class="project-card__header">
+            <div class="project-card__icon"><i class="ri-book-open-line"></i></div>
+            <div class="project-card__links">
+              <a href="https://github.com/mansi12366" target="_blank" rel="noopener noreferrer" title="View Source Code" class="project-link">
+                <i class="ri-github-line"></i>
+              </a>
+              <a href="#" class="project-link" title="Live Preview">
+                <i class="ri-external-link-line"></i>
+              </a>
+            </div>
+          </div>
+
+          <h3 class="project-card__title">Placement Preparation Website</h3>
+          <p class="project-card__desc">
+            An end-to-end interactive portal guiding engineering students with curated DSA roadmaps, company interview preparation, and topic-wise practice modules.
+          </p>
+
+          <div class="project-card__tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">React</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-card__badge">Popular</div>
+          <div class="project-card__header">
+            <div class="project-card__icon"><i class="ri-file-text-line"></i></div>
+            <div class="project-card__links">
+              <a href="https://github.com/mansi12366" target="_blank" rel="noopener noreferrer" title="View Source Code" class="project-link">
+                <i class="ri-github-line"></i>
+              </a>
+              <a href="#" class="project-link" title="Live Preview">
+                <i class="ri-external-link-line"></i>
+              </a>
+            </div>
+          </div>
+
+          <h3 class="project-card__title">Resume Builder & Optimizer</h3>
+          <p class="project-card__desc">
+            A dynamic web tool allowing users to build clean, ATS-compliant resumes with customizable templates, real-time live preview, and instant PDF download.
+          </p>
+
+          <div class="project-card__tags">
+            <span class="tag">React.js</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">CSS Grid</span>
+            <span class="tag">PDF Engine</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-card__badge">Live</div>
+          <div class="project-card__header">
+            <div class="project-card__icon"><i class="ri-macbook-line"></i></div>
+            <div class="project-card__links">
+              <a href="https://github.com/mansi12366" target="_blank" rel="noopener noreferrer" title="View Source Code" class="project-link">
+                <i class="ri-github-line"></i>
+              </a>
+              <a href="#" class="project-link" title="Live Preview">
+                <i class="ri-external-link-line"></i>
+              </a>
+            </div>
+          </div>
+
+          <h3 class="project-card__title">Developer Portfolio Website</h3>
+          <p class="project-card__desc">
+            A high-performance modern developer portfolio featuring glassmorphic UI, responsive layouts, theme effects, typing animations, and scroll animations.
+          </p>
+
+          <div class="project-card__tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">ScrollReveal</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--==================== JOURNEY / TIMELINE ====================-->
+    <section class="journey section container" id="journey">
+      <div class="section__header">
+        <span class="section__subtitle">Qualification & Experience</span>
+        <h2 class="section__title">My <span>Journey</span></h2>
+      </div>
+
+      <!-- Tab Buttons -->
+      <div class="journey__tabs">
+        <button class="journey__tab active" data-target="#education">
+          <i class="ri-graduation-cap-line"></i> Education
+        </button>
+        <button class="journey__tab" data-target="#experience">
+          <i class="ri-briefcase-line"></i> Learning & Projects
+        </button>
+      </div>
+
+      <div class="journey__sections">
+        <!-- Education Content -->
+        <div class="journey__content active" id="education">
+          <div class="timeline">
+            
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <div class="timeline__date">2023 - Present (4th Year)</div>
+                <h3 class="timeline__title">B.Tech in Computer Science & Engineering</h3>
+                <span class="timeline__subtitle">University College of Engineering</span>
+                <p class="timeline__desc">
+                  Focused on Data Structures, Algorithms, Software Engineering, Database Systems, Computer Networks, and Full-Stack Web Development.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <div class="timeline__date">2021 - 2023</div>
+                <h3 class="timeline__title">Senior Secondary Education (Class XII)</h3>
+                <span class="timeline__subtitle">PCM Stream (Physics, Chemistry, Maths)</span>
+                <p class="timeline__desc">
+                  Graduated with strong fundamentals in Mathematics and Science, building logical analytical skills.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Experience / Learning Content -->
+        <div class="journey__content" id="experience">
+          <div class="timeline">
+            
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <div class="timeline__date">2024 - Present</div>
+                <h3 class="timeline__title">Full-Stack Development & DSA</h3>
+                <span class="timeline__subtitle">Self-Directed & Hands-on Projects</span>
+                <p class="timeline__desc">
+                  Built real-world applications including Placement Prep Website and Resume Builder. Regularly practicing DSA algorithms on competitive platforms.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <div class="timeline__date">2023 - 2024</div>
+                <h3 class="timeline__title">Frontend Development Mastery</h3>
+                <span class="timeline__subtitle">HTML, CSS, JavaScript, React</span>
+                <p class="timeline__desc">
+                  Mastered responsive UI design, flexbox/grid layout systems, REST API integration, and modern JavaScript concepts.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact section container" id="contact">
+      <div class="section__header">
+        <span class="section__subtitle">Let's Connect</span>
+        <h2 class="section__title">Contact <span>Me</span></h2>
+      </div>
+
+      <div class="contact__container grid">
+        
+        <!-- Contact Info Cards -->
+        <div class="contact__info grid">
+          
+          <div class="contact__card">
+            <div class="contact__card-icon"><i class="ri-mail-send-line"></i></div>
+            <h3>Email</h3>
+            <span class="contact__card-data">mansirajput9045@gmail.com</span>
+            <button class="contact__copy-btn" id="copy-email-btn">
+              <i class="ri-file-copy-line"></i> Copy Email
+            </button>
+          </div>
+
+          <div class="contact__card">
+            <div class="contact__card-icon"><i class="ri-linkedin-fill"></i></div>
+            <h3>LinkedIn</h3>
+            <span class="contact__card-data">Mansi Chauhan</span>
+            <a href="https://www.linkedin.com/in/mansi-chauhan-9b0293323/" target="_blank" rel="noopener noreferrer" class="contact__card-button">
+              View Profile <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <div class="contact__card">
+            <div class="contact__card-icon"><i class="ri-github-fill"></i></div>
+            <h3>GitHub</h3>
+            <span class="contact__card-data">@mansi12366</span>
+            <a href="https://github.com/mansi12366" target="_blank" rel="noopener noreferrer" class="contact__card-button">
+              Visit GitHub <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Interactive Contact Form -->
+        <form class="contact__form" id="contact-form">
+          <h3 class="contact__form-title">Send Me a Message</h3>
+          
+          <div class="form__group">
+            <input type="text" id="user-name" name="name" required class="form__input" placeholder=" ">
+            <label for="user-name" class="form__label">Your Name</label>
+          </div>
+
+          <div class="form__group">
+            <input type="email" id="user-email" name="email" required class="form__input" placeholder=" ">
+            <label for="user-email" class="form__label">Your Email</label>
+          </div>
+
+          <div class="form__group">
+            <input type="text" id="user-subject" name="subject" required class="form__input" placeholder=" ">
+            <label for="user-subject" class="form__label">Subject</label>
+          </div>
+
+          <div class="form__group">
+            <textarea id="user-message" name="message" required class="form__input form__textarea" placeholder=" "></textarea>
+            <label for="user-message" class="form__label">Your Message</label>
+          </div>
+
+          <button type="submit" class="btn btn--primary form__submit-btn">
+            <span>Send Message</span>
+            <i class="ri-send-plane-fill"></i>
+          </button>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <div class="footer__content">
+        <a href="#" class="footer__logo">Mansi<span>.</span></a>
+        <p class="footer__tagline">Building modern web experiences with passion & code.</p>
+      </div>
+
+      <div class="footer__social">
+        <a href="https://github.com/mansi12366" target="_blank" rel="noopener noreferrer" class="footer__social-link">
+          <i class="ri-github-fill"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mansi-chauhan-9b0293323/" target="_blank" rel="noopener noreferrer" class="footer__social-link">
+          <i class="ri-linkedin-fill"></i>
+        </a>
+        <a href="mailto:mansirajput9045@gmail.com" class="footer__social-link">
+          <i class="ri-mail-line"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer__bottom container">
+      <p class="footer__copy">© 2026 Mansi Chauhan. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!--==================== BACK TO TOP BUTTON ====================-->
+  <a href="#" class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+    <svg class="scroll-top__circle" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+    <i class="ri-arrow-up-line scroll-top__icon"></i>
+  </a>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!--=============== SCROLLREVEAL JS ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
